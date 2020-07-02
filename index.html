@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <!-- Template css Files -->
+    <!-- js -->
+    <script src="js/script.js" type="text/javascript" charset="utf-8" defer></script>
+    <!-- utilities -->
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <!-- colors -->
+    <link rel="stylesheet" type="text/css" href="css/pink.css">
+    <!-- author stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- main wrapper -->
+    <div class="main-wrapper">
+        <!-- aside -->
+        <aside class="aside">
+            <!-- nav toggler -->
+            <div class="aside-nav-toggler">
+                <span class="aside-nav-toggle-button"></span>
+            </div>
+            <!-- logo -->
+            <div class="logo">
+                <a href="#">Sharde</a>
+            </div>
+            <!-- nav -->
+            <ul class="nav">
+                <li><a class="active" href="#home"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fa fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+            <!-- nav footer -->
+            <footer class="nav-footer">
+                <p>&copy;2020 Sharde DeLane</p>
+            </footer>
+        </aside>
+        <!-- main content -->
+        <main class="main-content">
+            <!-- HOME SECTION -->
+            <section class="home section active" id="home">
+                <div class="container">
+                    <!-- home content -->
+                    <div class="home-content">
+                        <div class="home-image">
+                            <img class="shadow-dark" src="images/person-cassette.jpg" alt="portrait">
+                        </div>
+                        <h1>Sharde DeLane</h1>
+                        <p>I'm A Web Developer</p>
+                        <div class="home-social-links">
+                            <a href="www.linkedin.com/in/sharde-delane" target="blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.github.com/shardedelane" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                    <!-- end home content -->
+                </div>
+            </section>
+            <!-- HOME SECTION END -->
+            <!-- ABOUT SECTION -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="about-title padd-2">
+                        <h2 class="section-title">About Me</h2>
+                    </div>
+                    <div class="row">
+                        <div class="about-text about-information padd-2">
+                            <h4>I'm Sharde DeLane and a <span>Web Developer</span></h4>
+                            <p>Hi! My name is Sharde DeLane. I am a Web Developer, and I'm very passionate and dedicated
+                                to my work. I'm naturally curious, and working on improving one problem at a time. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-buttons padd-2">
+                            <a class="about-btn btn" href="https://docs.google.com/document/d/1GcZjwaFwxD7rFRZ6YK4nNh8K8xcw6stK2WQCTMnEt34/edit?usp=sharing" target="_blank">View CV</a>
+                            <a href="#contact" class="about-btn btn hire-me">Hire Me</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-education padd-2">
+                            <h2 class="about-education-title">Education</h2>
+                            <!-- education item -->
+                            <div class="about-education-item timeline-box">
+                                <div class="circle-dot"></div>
+                                <p><i class="fa fa-calendar"></i> 2016 - 2018</p>
+                                <h4>Associate Of Applied Science</h4>
+                                <p>Houston Community College</p>
+                                <!--              <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                                    nisi semper, et elementum lorem ornare.</p> -->
+                            </div>
+                            <!-- end education item -->
+                            <!-- education item -->
+                            <div class="about-education-item timeline-box">
+                                <div class="circle-dot"></div>
+                                <p><i class="fa fa-calendar"></i> 2019 - Present</p>
+                                <h4>Bachelor Of Science</h4>
+                                <p>Arizona State University</p>
+                                <p class="about-text">
+                                    <span>Relevant Coursework:</span></br>
+                                    Web Programming For Human Computer Interfaces
+                                </p>
+                            </div>
+                            <!-- end education item -->
+                        </div>
+                        <div class="about-experience padd-2">
+                            <h2 class="about-experience-title">Experience</h2>
+                            <!-- experience item -->
+                            <div class="about-experience-item timeline-box">
+                                <div class="circle-dot"></div>
+                                <p><i class="fa fa-calendar"></i> 2017 - Present</p>
+                                <h4>Technical Support Agent</h4>
+                                <p class="about-text">
+                                    Providing technical support for iOS devices.
+                                </p>
+                            </div>
+                            <!-- end experience item -->
+                            <!-- education item -->
+                            <div class="about-experience-item timeline-box">
+                                <div class="circle-dot"></div>
+                                <p><i class="fa fa-calendar"></i> 2016 - 2017</p>
+                                <h4>Hardware Technician</h4>
+                                <p class="about-text">
+                                    Refurbished desktops and laptops for clients.</br>
+                                    Configured software and installed updates to systems.
+                                </p>
+                            </div>
+                            <!-- end education item -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ABOUT SECTION END -->
+            <!-- PROJECTS SECTION -->
+            <section class="projects section" id="projects">
+                <div class="container">
+                    <div class="projects-title padd-2">
+                        <h2 class="section-title">Projects</h2>
+                    </div>
+                    <div class="row">
+                        <!-- filter buttons -->
+                        <div class="project-buttons padd-2">
+                            <button class="project-filter-btn active" data-filter="all" type="">All</button>
+                            <button class="project-filter-btn" data-filter="web design" type="">Web Design</button>
+                            <button class="project-filter-btn" data-filter="javascript" type="">JavaScript</button>
+                    <!--         <button class="project-filter-btn" data-filter="mobile first" type="">Mobile First Design</button> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- projects Tea Site -->
+                        <div data-category="web design" class="projects-portfolio padd-2">
+                            <div class="projects-inner">
+                                <div class="projects-image">
+                                    <img src="images/image-1.png" alt="tea shop">
+                                </div>
+                                <div class="projects-footer">
+                                    <div class="projects-info">
+                                        <p>Web Design</p>
+                                        <a href="https://sheffieldroadtearooms.netlify.app" target="_blank" class="btn projects-info-btn">View Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- projects Red Hot Chili Peppers -->
+                        <div data-category="web design" class="projects-portfolio padd-2">
+                            <div class="projects-inner">
+                                <div class="projects-image">
+                                    <img src="images/image-2.png" alt="band site">
+                                </div>
+                                <div class="projects-footer">
+                                    <div class="projects-info">
+                                        <p>Web Design</p>
+                                        <a href="https://www.public.asu.edu/~sdelane/Project/" target="_blank" class="btn projects-info-btn">View Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- alamo drafthouse movie site -->
+                        <div data-category="web design" class="projects-portfolio padd-2">
+                            <div class="projects-inner">
+                                <div class="projects-image">
+                                    <img src="images/image-3.png" alt="coffee shop">
+                                </div>
+                                <div class="projects-footer">
+                                    <div class="projects-info">
+                                        <p>Web Design</p>
+                                        <a href="https://flexbox-movies.netlify.app" target="_blank" class="btn projects-info-btn" type="button">View Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- https://coffeejunkie.netlify.app -->
+                        <!-- https://netflix-streamify.netlify.app -->
+                        <!-- coffee junkie site -->
+                        <div data-category="javascript" class="projects-portfolio padd-2">
+                            <div class="projects-inner">
+                                <div class="projects-image">
+                                    <img src="images/image-4.png" alt="movie project">
+                                </div>
+                                <div class="projects-footer">
+                                    <div class="projects-info">
+                                        <p>JavaScript</p>
+                                        <a href="https://coffeejunkie.netlify.app" target="_blank" class="btn projects-info-btn">View Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- projects netflix landing page -->
+                        <div data-category="javascript" class="projects-portfolio padd-2">
+                            <div class="projects-inner">
+                                <div class="projects-image">
+                                    <img src="images/image-5.png" alt="">
+                                </div>
+                                <div class="projects-footer">
+                                    <div class="projects-info">
+                                        <p>JavaScript</p>
+                                        <a href="https://netflix-streamify.netlify.app" target="_blank" class="btn projects-info-btn">View Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Covid 19 Tracker -->
+                        <div data-category="javascript" class="projects-portfolio padd-2">
+                            <div class="projects-inner">
+                                <div class="projects-image">
+                                    <img src="images/image-6.png" alt="">
+                                </div>
+                                <div class="projects-footer">
+                                    <div class="projects-info">
+                                        <p>JavaScript Fetch API</p>
+                                        <a href="https://covid-19-usa-tracker.netlify.app/" target="_blank" class="btn projects-info-btn">View Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PROJECTS SECTION END -->
+            <!-- CONTACT SECTION -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="contact-title padd-2">
+                        <h2 class="section-title">Contact</h2>
+                    </div>
+                    <div class="row">
+                        <!-- contact info -->
+                        <div class="contact-info padd-2">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <h4>Call Us On</h4>
+                                <p>(713) 339 - 0955</p>
+                            </div>
+                        </div>
+                        <!-- contact info end -->
+                        <!-- contact info -->
+                        <div class="contact-info padd-2">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <h4>Location</h4>
+                                <p>Houston, Texas</p>
+                            </div>
+                        </div>
+                        <!-- contact info end -->
+                        <!-- contact info -->
+                        <div class="contact-info padd-2">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h4>Email Address</h4>
+                                <p>sharde.delane@gmail.com</p>
+                            </div>
+                        </div>
+                        <!-- contact info end -->
+                    </div>
+                    <form action="https://formspree.io/xjvaolqz" method="POST" class="contact-form">
+                        <div class="row">
+                            <!-- contact item -->
+                            <div class="contact-form-item name">
+                                <input name="name" type="text" class="contact-form-control" placeholder="Name*">
+                            </div>
+                            <!-- contact item end  -->
+                            <!-- contact item -->
+                            <div class="contact-form-item">
+                                <input name="email" type="email" class="contact-form-control" placeholder="Email*">
+                            </div>
+                            <!-- contact item end  -->
+                        </div>
+                        <div class="row">
+                            <!-- contact item -->
+                            <div class="contact-form-item">
+                                <input name="subject" type="text" class="contact-form-control" placeholder="Subject*">
+                            </div>
+                            <!-- contact item end  -->
+                        </div>
+                        <div class="row">
+                            <!-- contact item -->
+                            <div class="contact-form-item">
+                                <textarea name="message" class="contact-form-control" placeholder="Message*"></textarea>
+                            </div>
+                            <!-- contact item end  -->
+                        </div>
+                        <div class="row">
+                            <div class="contact-button">
+                                <button class="contact-form-button btn">Send Message</button>
+                                <input type="hidden" name="_next" value="https://shardedelane.netlify.app/"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- CONTACT SECTION END -->
+        </main>
+    </div>
+</body>
+
+</html>

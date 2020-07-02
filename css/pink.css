@@ -1,0 +1,39 @@
+.aside .logo a::after {
+  border-bottom: 5px solid #ec1839;
+  border-right: 5px solid #ec1839;
+}
+
+.aside .logo a::before {
+  border-left: 5px solid #ec1839;
+  border-top: 5px solid #ec1839;
+}
+
+.contact .contact-info .fa,
+.about .about-text span,
+.aside .nav li a:hover,
+.aside .nav li a.active {
+  color: #ec1839;
+}
+
+.section-title::after,
+.aside-nav-toggle-button span,
+.aside-nav-toggle-button::after,
+.aside-nav-toggle-button::before,
+.section-title::before,
+.home-content .home-social-links a {
+  background: #ec1839;
+}
+
+/* .projects .project-buttons button {
+    border: none;
+    border-bottom: 2px solid transparent;
+} */
+
+.projects .project-buttons button.active {
+  border-bottom: 3px solid #ec1839;
+}
+
+.projects .project-buttons button:hover {
+  border-color: #ec1839;
+}
+
